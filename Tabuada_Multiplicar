@@ -1,3 +1,7 @@
+""" 
+    #! EMPRESA FUTURA SISTEMA !#
+ 2- Exercio Tabuada Multiplicar
+"""
 from time import sleep #! É UMA BICLIOTECA QUE DA UM TEMPO DE ESPERA PARA O SISTEMA SER INICILIZADO...
 x = 1 #! Adicionei um String pelo motivo de Usar um conversor de INT sabendo que valor 1.
 y = 0 #! Adicionei um String pelo motivo de Usar um conversor de INT sabendo que valor 0.
@@ -13,3 +17,8 @@ while True: # LOOP INIFITO.
     if y==10: #! SE FOR IGUAL TRUE ELE DEPOIS QUEBRA ESSE LOOP.
         print("_________________") #! DECORACAO.
         break # QUEBRANDO O LOOP.
+"""
+    MENSAGEM: EXERCICIO TERMINADO EM 35 MINUTOS 11|11|2022...
+    DEVELOPER: @fehoffcial
+    GITHUB: https://github.com/fehoffcial
+"""
