@@ -1,0 +1,15 @@
+from time import sleep #! É UMA BICLIOTECA QUE DA UM TEMPO DE ESPERA PARA O SISTEMA SER INICILIZADO...
+x = 1 #! Adicionei um String pelo motivo de Usar um conversor de INT sabendo que valor 1.
+y = 0 #! Adicionei um String pelo motivo de Usar um conversor de INT sabendo que valor 0.
+user = int(input("Digite abaixo qual Tabuada que voce queira saber:")) #! O USUARIO IRA DIGITAR QUAL TABUADA QUER SABER!!!
+print("ESTAMOS CALCULANDO, AGUARDE UM MINUTO...") #! UMA NOTIFICACAO QUE MOSTRA PRA O USUARIO QUE ESTA PROCESSADOR O SISTEMA
+sleep(1) #! TEMPO DE ESPERA 1 SEGUNDO.
+print("|  TABUADA  ", user,"|") #! PRINT DA TABUADA.
+while True: # LOOP INIFITO.
+    xy = user * x #! FAZENDO OS CALCULOS DA TABUADA..
+    print("   {}x{}={}  ".format(user,x,xy)) #! IMPRIMINDO NA TELA OS VALORES DA TABUADA.
+    x = x+1 #! SOMANDO PARA DEPOIS FAZER O CALCULO DENOVO.
+    y = y+1 #! CALCULANDO ATE 10 PARA IMPRIMIR PRO USUARIO.
+    if y==10: #! SE FOR IGUAL TRUE ELE DEPOIS QUEBRA ESSE LOOP.
+        print("_________________") #! DECORACAO.
+        break # QUEBRANDO O LOOP.
